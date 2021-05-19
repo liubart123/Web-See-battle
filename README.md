@@ -25,7 +25,7 @@ When all ships of player are destroyed player disconnects from room...
 + ban user
 + report user
 
-#Screens
+# Screens
 ## Finding room 
 ![Entire poject](https://user-images.githubusercontent.com/54810248/118759986-b0671a80-b87a-11eb-8202-068f2f1a4e49.png)
 
