@@ -7,9 +7,9 @@ notFoundById = new Promise((res,rej)=>rej({error:'no elemnt with such id'}));
 
 getModel = (model)=>{
     if (model==='User')
-        model = models.User;
+        model = models.User();
     else if (model === 'BattleFormation')
-        model = models.BattleFormation;
+        model = models.BattleFormation();
     else
         return false
     return model;

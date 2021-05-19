@@ -8,14 +8,6 @@ var authJwt = require('../middleware/authJwt');
 
 
 module.exports = function(app) {
-    app.use(function(req, res, next) {
-      res.header(
-        "Access-Control-Allow-Headers",
-        "x-access-token, Origin, Content-Type, Accept"
-      );
-      next();
-    });
-  
     app.post(
       "/api/auth/signup",
       authController.signup
@@ -23,9 +15,10 @@ module.exports = function(app) {
   
     app.post("/api/auth/signin", authController.signin);
 
-
+    app.get("/api/auth/logout", authController.logout);
     
     app.get("/api/test/all", testAuthController.allAccess);
+    
 
     app.get(
       "/api/test/user",
@@ -41,7 +34,7 @@ module.exports = function(app) {
 
     app.get(
       "/api/test/admin",
-      [authJwt.verifyToken, authJwt.getMiddlewareToCheckUserRole(3)],
+      [authJwt.verifyToken, authJwt.getMiddlewareToCheckUserRole(15)],
       testAuthController.adminBoard
     );
 };

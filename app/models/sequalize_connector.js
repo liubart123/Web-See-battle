@@ -18,9 +18,6 @@ sequelize.authenticate()
 .then(()=>{
     console.log('db connection was created!');
     models.init(sequelize)
-    // queries.selectAll('faculties')
-    //     .then(res=>console.log(res))
-    //     .catch(err=>console.log(`error: ${err}`))
 })
 .catch(err=>console.log(`connection error: ${err}`))
 
