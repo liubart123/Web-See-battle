@@ -1,0 +1,208 @@
+body {
+    /* background-image: url('/src/images/back1.jpg');  */
+    background-image: url('https://wallpaperscave.ru/images/original/18/01-12/games-world-of-warships-9254.jpg'); 
+    /* background-image: url('https://get.wallhere.com/photo/ship-World-of-Warships-vehicle-Battleship-warship-ghost-ship-Destroyer-Battlecruiser-watercraft-screenshot-frigate-naval-ship-wows-wargaming-net-553336.jpg');  */
+    background-color: #2689c3; /* Цвет фона */;
+    
+    /* height: 20%; */
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center !important; 
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    /* background-size: 100% auto; */
+}
+.awesomeFormFindRoom{
+    /* background-color: #9ae0a3; */
+    background: rgb(166,168,170);
+    background: linear-gradient(61deg, rgba(166,168,170,0.6) 0%, rgba(136,150,168,0.6) 100%);
+    /* padding: 15px; */
+    border-radius: 8px;
+    /* margin:10px; */
+    display: flex;  
+    /* justify-content: center; */
+    /* align-items:center; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    border:rgba(0, 0, 0, 0.5) solid 2px;
+    
+    /* border-style: groove; */
+}
+label{
+    margin-top:0px;
+}
+
+
+.awesomeParentForFindRoomForms{
+    /* border:rgba(0, 0, 0, 0.5) solid 2px; */
+    /* width:30%; */
+    display: flex;  
+    /* justify-content: space-evenly; */
+    /* align-items:flex-start; */
+    flex-direction: column;
+    justify-content: space-between;
+    height:100%;
+}
+.awesomeFindRoomForm{
+    width:30%;
+    /* height:30%; */
+    margin:10px;
+    /* border:10px solid; */
+}
+.awesomeLabelInputLine{
+    border-bottom: 1px double;
+    /* background-color: rgb(224, 171, 228); */
+    display: flex;  
+    justify-content: space-evenly;
+    align-items:center;
+    flex-wrap:wrap;
+    margin: 0 10px 0 10px;
+}
+.awesomeLabel{
+    /* background-color: rgb(150, 155, 160); */
+    /* width:200px; */
+    margin:10px;
+    text-align: right;
+}
+.awesomeInput{
+    /* background-color: rgb(204, 220, 235); */
+    /* width: 200px; */
+    margin:10px;
+    border-radius: 4px;
+    background: rgb(107, 117, 129);
+    font-weight: 800;
+}
+.awesomeButton{
+    width:50%;
+    margin:10px;
+    padding:5px;
+    align-self: center;
+    background: rgb(71,78,82);
+    background: linear-gradient(61deg, rgba(71,78,82,1) 0%, rgb(85, 99, 117) 100%);
+    border:0px;
+    border-radius: 5px;
+    color:floralwhite;
+}
+.awesomeBattleTypes{
+    /* background-color: rgb(150, 155, 160); */
+    display: flex;  
+    justify-content: space-around;
+    align-items:center;
+    /* flex-direction: column; */
+    /* width: 400px; */
+    width:50%;
+    flex-wrap:wrap;
+    margin:0;
+    padding:0;
+}
+
+.awesomeMessageButton{
+    width:100px;
+    margin:10px;
+    padding:10px;
+    align-self: center;
+    background: rgb(71,78,82);
+    background: linear-gradient(61deg, rgba(71,78,82,1) 0%, rgb(85, 99, 117) 100%);
+    border:0px;
+    border-radius: 5px;
+    color:floralwhite;
+}
+
+.divForMessages{
+    width:400px;
+}
+
+.battleFormationList{
+    width:300px;
+    padding:15px;
+}
+
+.battleFormationRow{
+    border-bottom: 1px double;
+
+}
+
+
+.awesomeFieldTable{
+    border:black solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    line-height: 0;
+    padding:0;
+}
+.awesomeTdFieldFormation{
+    background-color: rgb(227, 231, 233);
+   /* border: 1px solid darkgray; */
+    padding:0px;
+    margin:0;
+}
+.awesomeButtonCellFieldFormation{
+    width:30px;
+    height:30px;
+    border:1px solid rgba(73, 98, 119, 0.753);
+    margin:1px;
+    /* padding:2px; */
+    border-collapse: collapse;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+    padding:0;
+}
+.awesomeBorderedButtonCellFieldFormation{
+    border:2px solid black;
+    box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.548);
+}
+
+.awesomeImageInButton{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+.awesomeButtonCellFieldFormation:active {
+    outline:none;
+}
+.awesomeButtonCellFieldFormation:focus {
+    outline:none;
+}
+.awesomeButtonCellFieldFormation:disabled{
+    background-color: rgba(73, 98, 119, 0.753);
+}
+
+
+
+
+.awesomePanel{
+    background: rgb(166,168,170);
+    background: linear-gradient(61deg, rgba(166,168,170,0.6) 0%, rgba(136,150,168,0.6) 100%);
+    padding: 15px;
+    margin:10px;
+    border-radius: 8px;
+    border:rgba(0, 0, 0, 0.5) solid 2px;
+    width: fit-content;
+}
+
+
+.awesomePlayerInfoOffline{
+    text-decoration: line-through;
+}
+
+.awesomeParentForPlayersFields{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.recordsTableColumn{
+    padding:5px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.recordsTableColumn th{
+    background-color: rgba(72, 81, 90, 0.726);
+}
+
+
+
